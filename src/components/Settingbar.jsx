@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../styles/toolbar.scss';
 
 const Settingbar = () => {
   return (
-    <div className='toolbar'>
-        Settingbar
+    <div className='setting-bar'>
+        
     </div>
   )
 }
