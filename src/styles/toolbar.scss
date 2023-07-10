@@ -69,4 +69,8 @@
     width: 100%;
     box-shadow: 0 4px 5px gray;
     top: $toolbar-height;
+
+    input {
+        margin: 0 10px;
+    }
 }
