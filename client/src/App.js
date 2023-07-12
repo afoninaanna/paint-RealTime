@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
+          <Route path='/' element={<><Toolbar /> <Settingbar /> <Canvas /></>} />
           <Route path='/:id' element={<><Toolbar /> <Settingbar /> <Canvas /><Navigate to={`/f${(+new Date()).toString(16)}`} replace/></>}/>
         </Routes>
       </div>
